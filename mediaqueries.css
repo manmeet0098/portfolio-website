@@ -202,10 +202,6 @@
     font-size: 0.85rem;
     padding: 0.8rem;
   }
-
-  footer .nav-links li:last-child {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1000px) {
