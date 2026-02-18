@@ -203,7 +203,7 @@
     padding: 0.8rem;
   }
 
-  footer nav {
+  footer .nav-links li:last-child {
     display: none;
   }
 }
