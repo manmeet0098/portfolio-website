@@ -104,6 +104,15 @@
   .logo {
     font-size: 1.75rem;
   }
+
+  #profile {
+    display: block;
+    padding: 0 1rem;
+  }
+  
+  .section__text {
+    margin: 2rem auto 0 auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -183,6 +192,12 @@
   
   .section__text__p2 {
     font-size: 1rem;
+  }
+  
+  .btn {
+    width: 7rem;
+    font-size: 0.85rem;
+    padding: 0.8rem;
   }
 }
 
