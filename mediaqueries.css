@@ -104,15 +104,6 @@
   .logo {
     font-size: 1.75rem;
   }
-
-  #profile {
-    display: block;
-    padding: 0 1rem;
-  }
-  
-  .section__text {
-    margin: 2rem auto 0 auto;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -165,39 +156,14 @@
     height: 49vw;
     justify-content: center;
   }
-  /* .section__text__p2 {
+  .section__text__p2 {
     font-size: 1.25rem;
-  } */
+  }
   .title {
     font-size: 2rem;
   }
   .text-container {
     text-align: justify;
-  }
-
-  .section__text {
-    padding: 2rem 1.5rem;
-    min-width: auto;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .section__text__p1 {
-    font-size: 1.2rem;
-  }
-  
-  .title {
-    font-size: 1.8rem;
-  }
-  
-  .section__text__p2 {
-    font-size: 1rem;
-  }
-  
-  .btn {
-    width: 7rem;
-    font-size: 0.85rem;
-    padding: 0.8rem;
   }
 }
 
