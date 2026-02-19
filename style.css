@@ -192,8 +192,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -380,10 +380,14 @@ section {
   position: relative;
 }
 
+#about .section-container {
+  margin-top: -2rem;
+}
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;  /* Changed from 2rem */
 }
 
 .about-details-container {

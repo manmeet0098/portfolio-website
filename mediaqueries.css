@@ -80,11 +80,22 @@
     margin-bottom: 5%;
   }
 
+  /* Reset desktop About changes */
+  #about .section-container {
+    margin-top: 2rem !important;  /* Add spacing back */
+  }
+
   .section__pic-container {
-    width: auto;
-    height: 45vw;
+    width: 300px !important;
+    height: 300px !important;
+    max-width: 300px;
+    max-height: 300px;
     justify-content: center;
     margin: 0 auto 2rem;
+  }
+
+  .about-containers {
+    margin-top: 2rem !important;
   }
 
   .section__pic-container-1 {
@@ -93,9 +104,6 @@
     justify-content: center;
     margin: 0 auto 2rem;
   }
-  .about-containers {
-    margin-top: 0;
-  }
 
   .title {
     font-size: 2rem;
@@ -103,6 +111,10 @@
 
   .logo {
     font-size: 1.75rem;
+  }
+
+  .menu-links {
+    z-index: 999;
   }
 }
 
