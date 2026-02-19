@@ -109,6 +109,10 @@
     margin: 0 auto 2rem;
   }
 
+  .text-container p {
+    font-size: 1rem;
+  }
+
   .title {
     font-size: 2rem;
   }
