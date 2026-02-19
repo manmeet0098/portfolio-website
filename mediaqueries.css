@@ -80,6 +80,10 @@
     margin-bottom: 5%;
   }
 
+  #about .title {
+    margin-bottom: 2.5rem;
+  }
+
   /* Reset desktop About changes */
   #about .section-container {
     margin-top: 2rem !important;  /* Add spacing back */
