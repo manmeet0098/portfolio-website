@@ -434,7 +434,7 @@ section {
 .details-container.animate {
   opacity: 1;
   transform: translateX(0);
-  transition: opacity 1s ease, transform 1.5s ease;
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 .details-container:hover {
@@ -597,6 +597,11 @@ article .icon {
 .details-container.animate {
   opacity: 1;
   transform: translateX(0);
+}
+
+.details-container p {
+  color: black;
+  font-size: 1.15rem;
 }
 
 /* FOOTER SECTION */
