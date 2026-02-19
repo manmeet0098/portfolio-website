@@ -230,7 +230,8 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
-  background: rgba(255, 255, 255, 0.25);
+  /* background: rgba(255, 255, 255, 0.25); */
+  background: rgba(187, 222, 251, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
@@ -411,6 +412,21 @@ section {
   bottom: 2.5rem;
 }
 
+.text-container {
+  background: #E3F2FD;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-container p {
+  color: black;
+  font-size: 1.2rem;
+}
+
 /* .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -423,7 +439,7 @@ section {
 } */
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1.2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
