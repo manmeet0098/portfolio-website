@@ -429,7 +429,7 @@ section {
 }
 
 .about-pic:hover {
-  transform: scale(1.2) !important;
+  transform: scale(1.15) !important;
 }
 
 /* .section__pic-container {
