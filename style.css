@@ -21,7 +21,7 @@ p {
 
 body {
 
-  background-color: #E3F2FD
+  background-color: #FFFFFF
 
 }
 
@@ -192,8 +192,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: auto 0;
 }
 
@@ -311,6 +311,7 @@ section {
 
 .text-container p{
   color: black;
+  font-size: 1.1rem;
 }
 
 /* ICONS */
