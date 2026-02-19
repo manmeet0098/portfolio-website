@@ -428,6 +428,10 @@ section {
   will-change: transform;
 }
 
+.about-pic:hover {
+  transform: scale(1.2) !important;
+}
+
 /* .section__pic-container {
   height: 500px;
   width: 500px;
@@ -496,6 +500,7 @@ article .icon {
   width: 90%;
   height: 90%;
 }
+
 
 .project-title {
   margin: 1rem;
