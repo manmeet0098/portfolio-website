@@ -531,6 +531,7 @@ article .icon {
   cursor: default;
 }
 
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -622,7 +623,7 @@ article .icon {
 
 .details-container p {
   color: black;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 /* FOOTER SECTION */
