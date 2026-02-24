@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1550px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -16,6 +16,44 @@
     font-size: 2.5rem;
   }
   
+}
+
+/* Fix for 1201-1400px range */
+@media screen and (max-width: 1550px) and (min-width: 1351px) {
+  #profile {
+    margin-bottom: 12rem !important;  /* Bigger gap */
+  }
+  
+  #about .title {
+    margin-top: -5rem;  /* Pull up a bit */
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+  }
+  
+  #about .section-container {
+    margin-top: 0 !important;  /* Cancel the -2rem */
+  }
+  
+  .section__pic-container {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  
+  .details-container {
+    padding: 1rem;
+  }
+  
+  .details-container p {
+    font-size: 1.05rem;
+  }
+  
+  .text-container {
+    padding: 2rem;
+  }
+  
+  .text-container p {
+    font-size: 1.15rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -52,6 +90,77 @@
   }
 
 }
+
+/* Just added */
+
+@media screen and (max-width: 1350px) and (min-width: 1001px) {
+  #profile {
+    height: 73vh;
+    margin-bottom: 20rem !important;  /* Even bigger gap */
+  }
+  
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  
+  #contact {
+    height: fit-content;
+  }
+  
+  .title {
+    font-size: 1.75rem;  /* Smaller */
+  }
+  
+  .arrow {
+    display: none;
+  }
+  
+  section {
+    margin: 0 5%;
+  }
+  
+  .logo {
+    font-size: 1.75rem;  /* Smaller */
+  }
+  
+  /* About section fixes */
+  #about .title {
+    margin-top: -12.5rem;
+    margin-bottom: 0rem;
+    font-size: 2rem;  /* Smaller About Me title */
+  }
+  
+  #about .section-container {
+    margin-top: 0 !important;
+  }
+  
+  .section__pic-container {
+    width: 280px !important;  /* Smaller photo */
+    height: 280px !important;
+  }
+  
+  .details-container {
+    padding: 0.8rem;  /* Less padding */
+  }
+  
+  .details-container h3 {
+    font-size: 1rem;  /* Smaller headings */
+  }
+  
+  .details-container p {
+    font-size: 0.95rem;  /* Smaller text */
+  }
+  
+  .text-container {
+    padding: 1.5rem;  /* Less padding */
+  }
+  
+  .text-container p {
+    font-size: 1.1rem;  /* Smaller text */
+    line-height: 1.5;
+  }
+}
+
 
 @media screen and (max-width: 1000px) {
   #desktop-nav {
