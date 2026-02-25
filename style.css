@@ -195,6 +195,10 @@ section {
   height: 350px;
   width: 350px;
   margin: auto 0;
+  z-index: 2;
+  background-color: #FFFFFF;  /* ADD THIS */
+  position: relative;           /* ADD THIS */
+  z-index: 2;                   /* ADD THIS */
 }
 
 
@@ -307,7 +311,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .text-container p{
@@ -319,7 +323,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 2.25rem;
 }
 
 /* BUTTONS */
@@ -483,6 +487,7 @@ section {
   border-radius: 2rem;
   transition: transform 0.1s ease-out;
   will-change: transform;
+  background-color: #FFFFFF;
 }
 
 .about-pic:hover {
