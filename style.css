@@ -448,7 +448,7 @@ section {
 
 .text-container p {
   color: black;
-  font-size: 1.2rem;  /* Slightly smaller */
+  font-size: 1.5rem;  /* Slightly smaller */
   line-height: 1.6;  /* Tighter line spacing */
 }
 
